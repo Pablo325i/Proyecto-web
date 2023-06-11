@@ -1,0 +1,104 @@
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+body {
+    background-color: white;
+    background: inherit;
+   display: white
+}
+.head {
+    display: flex;
+   margin-left: 70px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 5vh;
+    
+}
+
+a { 
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.sign-btns{
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+.btn-secundary {
+
+    color: white;
+    border: none;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    padding: 13px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    background: blue;
+    
+
+}
+
+
+.header {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100;
+    align-items: center;
+    position: sticky; 
+    flex-grow: 1;
+    padding: 35px 100px 0;
+    color: white;
+    /* justify-content: space-between; */
+    background: white;
+
+}
+
+ul, ul.nav {
+
+    list-style: none;
+    margin-top: 16px;
+    margin-left: 25px;
+
+}
+header ul.nav {
+
+    display: flex;
+    
+}
+
+header ul.nav li {
+margin: 0 15px;
+}
+header ul.nav li:first-child {
+    margin-left: 0;
+}
+header ul.nav li:last-child {
+    margin-right: 0;
+}
+
+.div1{
+
+width: 50px;
+height: 100%;
+background-color: aliceblue;
+}   
+
+.div2{
+
+    width: 50px;
+    height: 100%;
+    }   
