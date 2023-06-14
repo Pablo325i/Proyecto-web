@@ -13,7 +13,7 @@ body {
 }
 .head {
     display: flex;
-   margin-left: 70px;
+   /* margin-left: 70px; */
 }
 
 .container{
@@ -30,16 +30,16 @@ a {
     color: inherit;
 }
 .sign-btns{
-    display: inline-flex;
-    align-items: center;
+    display: flex;
+    /* align-items: center;
     justify-content: right;
-    
+     */
 }
 .btn-secundary {
 
     color: white;
     border: none;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     font-size: 16px;
     padding: 13px 0px;
@@ -55,15 +55,16 @@ a {
 .header {
     top: 0;
     left: 0;
-    z-index: 10;
-    width: 100%;
+    /* z-index: 10; */
+    /* width: 100%; */
     align-items: center;
-    position: sticky; 
-    flex-grow: 1;
-    padding: 35px 100px 0;
+    position: fixed; 
+    /* flex-grow: 1; */
+    /* padding: 35px 100px 0; */
     color: white;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     background: white;
+    display: flex;
 
 }
 
