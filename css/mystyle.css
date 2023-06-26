@@ -13,7 +13,7 @@ body {
 }
 .head {
     display: flex;
-   /* margin-left: 70px; */
+   margin-left: 70px;
 }
 
 .container{
@@ -31,15 +31,15 @@ a {
 }
 .sign-btns{
     display: flex;
-    /* align-items: center;
+    align-items: center;
     justify-content: right;
-     */
+    
 }
 .btn-secundary {
 
     color: white;
     border: none;
-    /* width: 100%; */
+    width: 100%;
     height: auto;
     font-size: 16px;
     padding: 13px 0px;
@@ -52,16 +52,16 @@ a {
 }
 
 
-.header {
+header {
     top: 0;
     left: 0;
     /* z-index: 10; */
-    /* width: 100%; */
+    /* width: 100%;
     align-items: center;
     position: fixed; 
-    /* flex-grow: 1; */
+    flex-grow: 1;
     /* padding: 35px 100px 0; */
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: space-between;
     background: white;
     display: flex;
@@ -121,3 +121,17 @@ background-color: white;
     height: 500px;
     background-color: white;
     }   
+
+.send-btn {
+    /* display: flex; */
+    color: white;
+    border: none;
+    width: 1px
+    height: 15px;
+    font-size: 16px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: blue;
+    
+}
