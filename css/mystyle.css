@@ -31,30 +31,37 @@ a {
 }
 .sign-btns{
     display: flex;
-    align-items: center;
-    justify-content: right;
+    /* align-items: center; */
+    /* justify-content: right; */
     
+}
+.btn-primary{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0px 13px
 }
 .btn-secundary {
 
     color: white;
     border: none;
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     font-size: 16px;
-    padding: 13px 0px;
+    padding: 13px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s ease;
-    background: blue;
-    
+    background: rgb(84, 84, 177);
+    margin-right: 70px;
 
 }
 
 
 header {
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 20; */
     /* z-index: 10; */
     /* width: 100%;
     align-items: center;
@@ -73,7 +80,6 @@ ul, ul.nav {
     list-style: none;
     margin-top: 16px;
     margin-left: 25px;
-
 }
 header ul.nav {
 
@@ -82,7 +88,7 @@ header ul.nav {
 }
 
 header ul.nav li {
-margin: 0 15px;
+margin: 0 20px;
 }
 header ul.nav li:first-child {
     margin-left: 0;
@@ -96,8 +102,8 @@ header ul.nav li:last-child {
     display: flex;
 }
 .content1{
-align-items: center;
-justify-content: center;
+/* align-items: center;
+justify-content: center; */
 width: 45%;
 height: 500px;
 margin-left: 5%;
@@ -113,8 +119,15 @@ background-color: white;
 
 
 }
-.content2{
 
+.ubications {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.content2{
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     width: 45%;
@@ -122,16 +135,19 @@ background-color: white;
     background-color: white;
     }   
 
+
 .send-btn {
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border: none;
-    width: 1px
-    height: 15px;
+    width: 400px;
+    /* height: 15px; */
     font-size: 16px;
-    padding: 5px 0px;
+    padding: 4px 0px;
     border-radius: 5px;
     cursor: pointer;
-    background: blue;
-    
+    background: rgb(84, 84, 177);
+    /* text-align: center; */
 }
