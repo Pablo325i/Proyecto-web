@@ -97,7 +97,7 @@ header ul.nav li:last-child {
     margin-right: 0;
 }
 .content{
-    margin-top: 5%;
+    margin-top: 4%;
     width: 100%;
     display: flex;
 }
@@ -135,7 +135,56 @@ background-color: white;
     background-color: white;
     }   
 
+.nameForm {
+    display: flex;  
+    margin-top: 20px;
+    align-items: center;
+    
+    
+}  
+.DivForm {
+    border: solid;
+    width: 600px;  
+    height: 500px;
+    
+}
 
+.DivName{
+    margin-left: 50px
+}
+ .Lname, .Fname {
+    
+    margin: 5px 15px 10px 0px;
+    border-radius: 5px;
+    border-color: rgb(207, 205, 205);
+    box-sizing: border-box;
+    width: 234px;
+    height: 34px;
+}
+
+.inputBox{
+    margin: 5px 0px 10px 0px;
+    width: 482px;
+    height: 38px;
+    border-radius: 5px;
+    border-color: rgb(207, 205, 205);
+    box-sizing: border-box;
+}
+.form-group {
+     flex-direction: column;
+     /* height: ; */
+     margin-left: 50px;
+     /* margin: 10px 15px 15px 50px; */
+   } 
+.InputMessage{
+    margin: 5px 0px 10px 0px;
+    height: 80px;
+    width: 482px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    border-color: rgb(207, 205, 205);
+    box-sizing: border-box;
+}
 .send-btn {
     display: flex;
     align-items: center;
