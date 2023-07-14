@@ -46,7 +46,7 @@ a {
 
     color: white;
     border: none;
-    /* width: 100%; */
+    width: 123px;
     height: auto;
     font-size: 16px;
     padding: 13px 20px;
@@ -63,8 +63,8 @@ header {
     /* top: 0;
     left: 20; */
     /* z-index: 10; */
-    /* width: 100%;
-    align-items: center;
+    /* width: 100%; */
+    /*align-items: center;
     position: fixed; 
     flex-grow: 1;
     /* padding: 35px 100px 0; */
@@ -72,7 +72,7 @@ header {
     justify-content: space-between;
     background: white;
     display: flex;
-
+    margin-top: 3px;
 }
 
 ul, ul.nav {
@@ -95,6 +95,9 @@ header ul.nav li:first-child {
 }
 header ul.nav li:last-child {
     margin-right: 0;
+}
+.h1 {
+    font-size: 47px;
 }
 .content{
     margin-top: 4%;
@@ -139,13 +142,15 @@ background-color: white;
     display: flex;  
     margin-top: 20px;
     align-items: center;
-    
+    padding-top: 20px;
+
     
 }  
 .DivForm {
-    border: solid;
+    /* border: 1; */
     width: 600px;  
-    height: 500px;
+    height: 560px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -154,7 +159,7 @@ background-color: white;
 }
  .Lname, .Fname {
     
-    margin: 5px 15px 10px 0px;
+    margin: 10px 15px 15px 0px;
     border-radius: 5px;
     border-color: rgb(207, 205, 205);
     box-sizing: border-box;
@@ -163,7 +168,7 @@ background-color: white;
 }
 
 .inputBox{
-    margin: 5px 0px 10px 0px;
+    margin: 10px 0px 15px 0px;
     width: 482px;
     height: 38px;
     border-radius: 5px;
@@ -178,9 +183,9 @@ background-color: white;
    } 
 .InputMessage{
     margin: 5px 0px 10px 0px;
-    height: 80px;
+    height: 123px;
     width: 482px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     border-radius: 5px;
     border-color: rgb(207, 205, 205);
     box-sizing: border-box;
@@ -191,8 +196,8 @@ background-color: white;
     justify-content: center;
     color: white;
     border: none;
-    width: 400px;
-    /* height: 15px; */
+    width: 483px;
+    height: 35px;
     font-size: 16px;
     padding: 4px 0px;
     border-radius: 5px;
@@ -200,3 +205,8 @@ background-color: white;
     background: rgb(84, 84, 177);
     /* text-align: center; */
 }
+
+.form-group-send-btn {
+margin-left: 51px;
+}
+
