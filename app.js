@@ -17,14 +17,14 @@ function taskHandler() {
     if (firstName && lastName && Email && company && Phone && message) {
         TaskAlert(info);
     }
-    console.log("handler: ", info);
+    
 }
 
 function TaskAlert(info) {
-    console.log("task: ", info);
+    console.log("task:", info);
     const { firstName, lastName, Email, company, Phone, message } = info;
     window.alert(
-      `First name:${firstName}, Last name:${lastName}, Email:${Email}, Company:${company}, Phone:${Phone}, Message:${message} `
+      `First name: ${firstName}, Last name: ${lastName}, Email: ${Email}, Company: ${company}, Phone: ${Phone}, Message: ${message} `
     );
   }
 
